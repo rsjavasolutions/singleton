@@ -1,0 +1,8 @@
+Gwarantuje, że klasa będzie miała tylko jeden egzemplarz i zapewnia globalny dostęp do niego.
+Ma to na celu ograniczenie ilości obiektów tworzonych w aplikacji.
+Często Singleton określany jest anty wzorcem ponieważ łamie on zasady programowania obiektowego (wprowadza globalny stan).
+
+Przykładem singletonów są beany springowe.
+Spring Framework tworzy domyślnie beany jako singletony (każdy bean ma tylko jedną instancję).
+Pomaga to zoptymalizować tworzenie obiektów beanów. Beany tworzone są tylko przy starcie aplikacji.
+Dzięki czemu Garbage Collector ma dużo mniej pracy.
